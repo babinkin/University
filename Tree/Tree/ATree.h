@@ -1,14 +1,14 @@
-#pragma once
+п»ї#pragma once
 #include "ANode.h"
 
 template<class T>
 class ATree
 {
  private:
-	ANode <T> * root; // корень дерева
+	ANode <T> * root; // РєРѕСЂРµРЅСЊ РґРµСЂРµРІР°
 	void f_print(ANode<T> *p, int d = 0);
  public:
 	ATree(ANode<T>*p);
-	void print();  // печатает дерево
+	void print();  // РїРµС‡Р°С‚Р°РµС‚ РґРµСЂРµРІРѕ
 };
 

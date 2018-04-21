@@ -1,4 +1,4 @@
-#include "ANode.h"
+﻿#include "ANode.h"
 
 template<class T>
 ANode<T>::ANode(T dd, ANode<T> *d = nullptr, ANode<T> *r = nullptr) {

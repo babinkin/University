@@ -1,4 +1,4 @@
-#pragma once
+﻿#pragma once
 #include <iostream>
 #include <cstdlib>
 using namespace std;
@@ -11,4 +11,4 @@ struct ANode
 
 
 	ANode(T dd, ANode<T> *d = nullptr, ANode<T> *r = nullptr);
-};
+};

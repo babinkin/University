@@ -1,4 +1,4 @@
-#include "ATree.h"
+п»ї#include "ATree.h"
 
 template<class T>
 ATree<T>::ATree(ANode<T>*p)
@@ -9,12 +9,12 @@ ATree<T>::ATree(ANode<T>*p)
 template<class T>
 void ATree<T>::print()
 {
-	f_print(root); // печатает дерево
+	f_print(root); // РїРµС‡Р°С‚Р°РµС‚ РґРµСЂРµРІРѕ
 
 }
 
 template <class T>
-void ATree<T>::f_print(ANode<T> *p, int d = 0) // d - смещение
+void ATree<T>::f_print(ANode<T> *p, int d = 0) // d - СЃРјРµС‰РµРЅРёРµ
 {
 	if (p == nullptr) return;
 	for (int i = 0; i < d; i++)
