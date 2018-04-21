@@ -24,5 +24,11 @@ void ATree<T>::f_print(ANode<T> *p, int d = 0) // d - смещение
 	f_print(p->right, d);
 }
 
+template <class T>
+ANode<T> * ATree<T>::getRoot() {
+	return root;
+}
+
+
 
 template ATree<int>;

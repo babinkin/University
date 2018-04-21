@@ -11,4 +11,8 @@ struct ANode
 
 
 	ANode(T dd, ANode<T> *d = nullptr, ANode<T> *r = nullptr);
+	int sonsCount();
+	int grandsonsCount();
+
 };
+

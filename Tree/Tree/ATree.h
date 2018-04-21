@@ -10,5 +10,6 @@ class ATree
  public:
 	ATree(ANode<T>*p);
 	void print();  // печатает дерево
+	ANode<T> * getRoot();
 };
 

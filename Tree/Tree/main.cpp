@@ -7,7 +7,7 @@ using namespace std;
 
 int main()
 {
-
+	setlocale(LC_ALL, "Russian");
 	ANode <int> *p10 = new ANode <int>(10),
 	*p9 = new ANode <int>(9, nullptr, p10),
 	*p8 = new ANode <int>(8, nullptr, p9),
@@ -21,5 +21,5 @@ int main()
 
 	ATree <int> groot(p1);
 	groot.print();
-
+	cout << "Количество внуков у корня: " << groot.getRoot()->grandsonsCount() << endl;
 }
