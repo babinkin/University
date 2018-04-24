@@ -1,4 +1,4 @@
-#include "BTree.h"
+п»ї#include "BTree.h"
 #include <iostream>
 #include <limits>
 
@@ -9,12 +9,12 @@ using namespace std;
 
 BTree::BTree(BNode *p) : root(p) {}
 
-void BTree::print() // метод печати
+void BTree::print() // РјРµС‚РѕРґ РїРµС‡Р°С‚Рё
 {
-	f_print(root); // вызывает рекурсивную функцию
+	f_print(root); // РІС‹Р·С‹РІР°РµС‚ СЂРµРєСѓСЂСЃРёРІРЅСѓСЋ С„СѓРЅРєС†РёСЋ
 }
 
-int BTree::count() // вычисляет число узлов дерева
+int BTree::count() // РІС‹С‡РёСЃР»СЏРµС‚ С‡РёСЃР»Рѕ СѓР·Р»РѕРІ РґРµСЂРµРІР°
 {
 	return f_count(root);
 }

@@ -1,7 +1,7 @@
-#pragma once
-struct BNode // описывает узел
+п»ї#pragma once
+struct BNode // РѕРїРёСЃС‹РІР°РµС‚ СѓР·РµР»
 {
-	int data; // элемент данных
-	BNode *left, *right; // указатели на сыновей
+	int data; // СЌР»РµРјРµРЅС‚ РґР°РЅРЅС‹С…
+	BNode *left, *right; // СѓРєР°Р·Р°С‚РµР»Рё РЅР° СЃС‹РЅРѕРІРµР№
 	BNode(int d, BNode *l = nullptr, BNode *r = nullptr);
 };
